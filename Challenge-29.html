@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Challenge-29</title>
+	</head>
+	<body>
+		<header>
+			<h1 data-js='companyName'> </h1>
+			<p data-js ='companyPhone'></p>
+		</header>		
+		<form data-js='form'>
+			<button> Imagem do carro </button>	
+			<p>Marca/Modelo:</p>
+			<input data-js='model' type="text" name="text"> 
+			<p>Ano:</p>
+			<input data-js='year' type="text" name="text"> 
+			<p>Placa:</p>
+			<input data-js='placa' type="text" name="text"> 
+			<p>Cor:</p>
+			<input data-js='color' type="text" name="text"> 
+			<button data-js="send"> Enviar </button>
+		</form>	
+		<div>
+			<p><strong>Carros Cadastrados:</strong></p>			 
+			<table >
+				<thead>
+					<tr> 
+						<th>Marca</th>
+						<th>Ano</th>
+						<th>Placa</th>
+						<th>Cor</th>
+						<th>Remover</th>
+					</tr>
+				</thead>
+				<tbody data-js = 'tableCars'>						
+					
+				</tbody>
+
+			</table>
+		</div>
+
+		<script src="DOM.js"></script>
+		<script src="challenge-29.js"></script>	
+	</body>
+</html>
